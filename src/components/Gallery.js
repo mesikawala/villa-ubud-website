@@ -14,7 +14,7 @@ const Gallery = () => {
 
     const interval = setInterval(() => {
       nextImage();
-    }, 5000); // 5 detik
+    }, 1000); // 1 detik
 
     return () => clearInterval(interval);
   }, [currentImageIndex, isAutoPlay]);
